@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div align="left">
+		<p th:if="${@sessionData.userName}">[[${@sessionData.userName}]]</p>
+	</div>
+	<div align="right">
+		<a href="/logout">ログアウト</a>
+	</div>
+	
+	<div align="center">
+	
+		<h1>検索画面</h1>
+		<a href="/return/top">戻る</a>
+	
+	</div>
+
+</body>
+</html>

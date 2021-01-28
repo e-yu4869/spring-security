@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div align="left">
+		<p th:if="${@sessionData.userName}">[[${@sessionData.userName}]]</p>
+	</div>
+	<div align="right">
+		<a href="/logout">ログアウト</a>
+	</div>
+
+	<div align="center">
+		<h1>トップ画面</h1>
+		
+		<a href="/search">検索へ</a>
+		
+	</div>
+</body>
+</html>
