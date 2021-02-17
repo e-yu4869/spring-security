@@ -1,3 +1,4 @@
 # spring-security
 git branch
-git checkout 
+git checkout
+git clone 
